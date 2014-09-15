@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Web Console</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <form action="/console/execute">
+        <label for="command">Command: </label>
+        <input id="command" name="command" type="text" value="ls -al" th:value="${controller.getCommand()}"/>
+        <button type="submit">Execute</button>
+    </form>
+    <pre th:text="${controller.getResult()}">
+
+    </pre>
+</body>
+</html>

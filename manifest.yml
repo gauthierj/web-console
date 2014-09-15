@@ -1,0 +1,8 @@
+---
+applications:
+- name: web-console
+  memory: 256M
+  instances: 1
+  path: target/web-console-1.0.0-SNAPSHOT.jar
+  env:
+    SPRING_PROFILES_DEFAULT: cloud
