@@ -19,7 +19,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.vermeg.console.Application</start-class>
+        <start-class>org.jacques.gauthier.webconsole.Application</start-class>
         <java.version>1.7</java.version>
         <spring-cloud.version>1.1.0.RELEASE</spring-cloud.version>
     </properties>
